@@ -1,0 +1,203 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    color: #fff;
+    font-family: Arial;
+}.addres{
+    text-align: center;
+    margin: 20px 0;
+}
+.crud{
+    width: 90%;
+    margin: auto ;
+}.inputs input{
+    width: 100%;
+    outline: none;
+    border: none;
+    margin: 5px;
+    padding: 6px;
+    
+}#title:focus{
+    background: lightblue;
+    color: #000;
+    font-weight: 600;
+    font-family: system-ui;
+}
+.inputs input:focus{
+    background: rgb(84, 71, 71);
+    transition: 0.5s ease;
+    color: white;
+    letter-spacing: 2px;
+}
+.inputs .bakg-price input{
+    width: 19.5%;
+}.inputs .bakg-price input:focus{
+    transform: scale(1.1);
+}
+#totle{
+    background: rgb(209, 14, 14);
+    padding: 6px;
+    margin-left: 1px;
+    
+}#totle::before{
+    content: "Total:";
+}.inputs button{
+    margin: 20px 0 10px 0;
+    width: 50%;
+    margin-left: 25%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: rgb(193, 193, 115);
+    transition:0.5s ease-in-out;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}.inputs button:hover{
+    transform: scale(1.1);
+    letter-spacing: 1px;
+}button:focus{
+    background: lightblue;
+}.outputs .input-search{
+    width: 80%;
+    margin: auto;
+
+}.outputs .input-search input{
+    width: 100%;
+    outline: none;
+    border:none;
+    padding: 10px;
+ 
+}.outputs .input-search input:focus{
+    transform: scale(1.0);
+    letter-spacing: 1px;
+    transition:0.2s ease;
+    background: rgb(239, 243, 300);
+}.outputs .btn-search{
+    
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}.outputs .btn-search button{
+    cursor: pointer;
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: rgb(193, 193, 115);
+    transition:0.3s ease;
+}.outputs .btn-search button:focus{
+    transform: scale(1.0);
+    letter-spacing: 1px;
+    background: rgb(239, 243, 300);
+}#deletAll{
+    width: 20%;
+ 
+}table{
+    
+    width: 100%;
+    text-align: center;
+}#Delete{
+    background: rgba(134, 102, 24, 0.689);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}#Delete:focus{
+    transform: scale(1.1);
+}
+#Update{
+    background: rgb(136, 136, 186);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    outline: none;
+    border: none;
+    color:#000;
+    cursor: pointer;
+    transition: 0.3s ease;
+}#Update:focus{
+    transform: scale(1.1);
+}th,td{
+     padding: 5px;
+}#row{
+    color: rgb(100, 50, 100);
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+}#tbody{
+   text-align: center;
+}#deletAll{
+    
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}#btn{
+
+    background-color: red;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    margin-left: 45%;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}.message {
+    margin-bottom: 10px;
+
+}
+.message p{
+    color: red;
+    margin-bottom: 2px;
+    text-align: center;
+}
+@media (max-width: 600px) {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body{
+ width: 100%;
+}.inputs{
+    margin-left: 75px;
+    width: 100%;
+}.addres{
+  margin-left: 150px;
+}.message{
+    margin-left: 150px;
+}.outputs input{
+    width: 100%;
+    margin-left: 20px;
+}#searchTitle{
+    padding: 0;
+    height: 30px;
+    margin-left: 18%;
+}#searchCategory{
+    
+    height: 30px;
+    padding: 0;
+ 
+}.outputs{
+    margin-left: 30%;
+}#btn
+{
+    margin-left: 55%;
+}
+}

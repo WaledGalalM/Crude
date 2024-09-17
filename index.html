@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+
+
+    <div class="crud">
+        <div class="addres">
+            <h2>crud</h2>
+            <p> PROJECTS SYSTEM</p>
+        </div>
+        <div class="message">
+            <p>You must enter title and category? OR <span>count not greater than 100 ?? ->durig create aproduct</span></p>
+            <hr>
+            
+        </div>
+        <div class="inputs">
+            <input type="text" placeholder="Product Name" id="title" >
+            <div class="bakg-price">
+                <input onkeyup="outputTotle()" type="number" placeholder="$Price" id="Price" >
+                <input onkeyup="outputTotle()" type="number" placeholder="Fees" id="Fees" >
+                <input onkeyup="outputTotle()" type="number" placeholder="Ads" id="Ads" >
+                <input onkeyup="outputTotle()" type="number" placeholder="Discount" id="Discount" >
+                <small id="totle"></small>
+            </div>
+            <div>
+               <input type="number" placeholder="Count Product" id="count" >
+               <input type="text" placeholder="Category" id="Category">
+               <button  id="submit">create</button>
+            </div>
+        </div>
+
+        <div class="outputs">
+
+            <div class="input-search">
+            <input onkeyup="realResearch(this.value)" type="text" id="search" placeholder="Search"> 
+            </div>
+            <div class="btn-search">
+                <button  onclick="getSearch(this.id)" id="searchTitle"> Search By Title</button>
+                <button  onclick="getSearch(this.id)" id="searchCategory"> Search By Category</button>
+                 </div>    
+        </div>
+
+       
+ <div  id="deletAll"> </div>   
+             
+ <table>
+    <tr id="row">
+        <td>Id</td>
+        <td>Title</td>
+        <td>Price</td>
+        <td>Fees</td>
+        <td>Ads</td>
+        <td>Discount</td>
+        <td>Totle</td>
+        <td>Category</td>
+        <td>Update</td>
+        <td>Delete</td>
+    </tr>
+
+        <tbody id="tbody">
+    
+        </tbody>
+    </table>    
+  
+
+    </div>
+ 
+       
+
+    <script src="main.js">
+
+    </script>
+</body>
+</html>
