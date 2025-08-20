@@ -1,17 +1,18 @@
-# Crude 
-Simple Ecommerce JS
+#Simple CRUD JS
 
-Welcome to Simple Ecommerce JS, a basic e-commerce project created during the early days of my JavaScript learning journey. This project provides a simple experience to browse products and add them to a shopping cart.
+Welcome to Simple CRUD JS, a basic project built to practice my early JavaScript skills. This project allows you to Create, Read, Update, and Delete simple items, such as a list of tasks or products.
 
 Features
 
-Product Listing: Browse products with name, price, and image.
+Create Items: Add new items to the list.
 
-Shopping Cart: Add products and review them before "checkout".
+Read Items: View all items in a simple list.
 
-Local Storage: Save cart items in the browser so they persist after refreshing.
+Update Items: Edit existing items.
 
-Simple Search: Search products by name.
+Delete Items: Remove items from the list.
+
+Local Storage: Save items in the browser so they persist after refreshing the page.
 
 Tech Stack
 
@@ -33,4 +34,4 @@ Open index.html in any modern browser.
 
 Note
 
-This project represents my early learning stage in JavaScript and reflects my knowledge level at that time.
+This project was created during my early learning stage in JavaScript and reflects my knowledge at that time.
