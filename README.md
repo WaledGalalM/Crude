@@ -4,7 +4,7 @@ Welcome to Simple CRUD JS, a basic project built to practice my early JavaScript
 
 Features
 
-Create Items: Add new items to the list.
+Create Items: Add New items to the list.
 
 Read Items: View all items in a simple list.
 
@@ -35,3 +35,5 @@ Open index.html in any modern browser.
 Note
 
 This project was created during my early learning stage in JavaScript and reflects my knowledge at that time.
+*my Phone is 01029089774
+
