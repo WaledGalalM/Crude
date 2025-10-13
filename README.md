@@ -1,6 +1,6 @@
-#Simple CRUD JS
+# Simple CRUD JS
 
-Welcome to Simple CRUD JS, a basic project built to practice my early JavaScript skills. This project allows you to Create, Read, Update, and Delete simple items, such as a list of tasks or products.
+a basic project built to practice my early JavaScript skills. This project allows you to Create, Read, Update, and Delete simple items, such as a list of tasks or products.
 
 Features
 
